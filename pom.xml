@@ -26,18 +26,18 @@
             <id>deployment</id>
             <name>Internal Releases</name>
             <url>http://192.168.106.148:8081/repository/Cloud1/</url>
-        </repository>
-        <snapshotRepository>
+   </repository>
+   <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://192.168.106.148:8081/repository/Gen1/</url>
-        </snapshotRepository>
+   </snapshotRepository>
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
-  </distributionManagement>
+</distributionManagement>
 
     <dependencies>
         <dependency>
